@@ -1,0 +1,111 @@
+html {
+  scroll-behavior: smooth;
+}
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 738px;
+  align-content: center;
+  scroll-behavior: smooth;
+  word-wrap: break-word;
+  box-sizing: inherit;
+}
+#header {
+  padding-bottom: 20%;
+  color: black;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+  word-wrap: break-word;
+  top: 0;
+  height: 90vh;
+  width: 100vw !important; /* Full width */
+  transition: 0.6s;
+
+  font-family: "Times New Roman", Times, serif; /* Add a transition effect (when scrolling - and font size is decreased) */
+}
+h1 {
+  font-weight: 100;
+}
+#info {
+  width: auto;
+  height: 20vh;
+  font-size: 1.1rem;
+  padding: 0, 0, 0, 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#div_top_hypers {
+  text-align: center;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  background-color: white;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+#ul_top_hypers li {
+  scroll-behavior: smooth;
+  display: inline;
+  position: sticky;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 2%;
+
+  padding-bottom: 100px;
+  font-family: sans-serif;
+}
+body {
+  display: block;
+  word-wrap: break-word;
+  font-kerning: normal;
+  padding-bottom: 50px;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-stretch: condensed;
+}
+h2 {
+  box-sizing: border-box;
+  width: 738px;
+  font-weight: 400;
+  font-size: 1em;
+  font-family: sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3 {
+  font-size: 1rem;
+
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+  font-weight: 400;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+h4 {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+h5 {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding: 0px, 60px, 0, 20px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+#contrast {
+  font-family: "Times New Roman", Times, serif;
+  font-stretch: condensed;
+}
